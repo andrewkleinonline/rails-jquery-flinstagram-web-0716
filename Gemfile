@@ -14,7 +14,7 @@ gem 'spring',        group: :development
 group :test, :development do
   gem "rspec-rails"
   gem "capybara"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", "~> 2.53.0"
   gem "better_errors"
   gem "sprockets_better_errors"
   gem "binding_of_caller"
